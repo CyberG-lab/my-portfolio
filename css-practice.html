@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css-practice.css">
+  <title>CSS Practice</title>
+  <style>
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<style>
+/* Base styles for mobile devices (default) */
+body {
+  background-color: #ffe066;
+}
+h1 {
+  font-size: 1.5em;
+}
+.center-block {
+  width: 90%;
+  font-size: 1em;
+}
+</style>
+
+<style>
+    /* Styles for screens 601px and wider (tablets, desktops) */
+@media (min-width: 601px) {
+  body {
+    background-color: #fff;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .center-block {
+    width: 60%;
+    font-size: 1.2em;
+  }
+}
+
+</style>
+    <style>
+          .transparent-bg {
+  background: rgba(70, 130, 180, 0.3); /* 0.3 = 30% visible */
+  padding: 16px;
+  margin-top: 16px;
+}
+    </style>
+    <div class="transparent-bg">Fabian is Your Instructor for the day!</div>
+  
+
+    <style>
+    .decorated-text::before {
+        content: "✨ ";
+        color: gold;
+    }
+    .decorated-text::after {
+        content: " ✨";
+        color: gold;
+    }
+    .decorated-text {
+        font-weight: bold;
+        font-size: 1.1em;
+        padding: 6px 0;
+        display: block;
+    }
+    </style>
+    <p class="decorated-text">WELCOME TO FABIANS CSS WEBSITE GET MORE HERE!</p>
+<button class="fancy-btn">Hover me!</button>
+<input class="fancy-input" type="text" placeholder="Focus on me!" />
+
+<style>
+.transparent-img {
+  opacity: 0.5;
+}
+</style>
+<img class="transparent-img" src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg" alt="Dog lying on grass" />
+
+<ul class="colorful-list">
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+  <li>Fourth</li>
+</ul>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  
+<style>
+  /* Span boxes (inline elements) */
+  span {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+    border: 1px solid gray;
+  }
+</style>
+
+<span>Box 1</span>
+<span>Box 2</span>
+<span>Box 3</span>
+<ul>
+  <li>Learn HTML</li>
+  <li>Learn CSS</li>
+  <li>Build Projects</li>
+</ul>
+  <li>Learn CSS</li>
+  <li>Build Projects</li>
+</ul>
+
+<ol>
+  <li>Plan</li>
+  <li>Code</li>
+  <li>Test</li>
+</ol>
+
+<div class="box-relative">I'm relative</div>
+<style>
+  /* Positioning examples */
+  .box-relative {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    padding: 10px;
+    margin-bottom: 40px; /* Space for the absolute box */
+  }
+</style>
+
+<div class="box-absolute">I'm absolute</div>
+<style>
+  /* Positioning examples */
+  .box-absolute {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    padding: 10px;
+  }
+</style>
+
+<div class="box-fixed">I'm fixed</div>
+<style>
+  .box-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+  }
+</style>
+
+<div class="overflow-box"></div>
+<style>
+  /* Overflow box */
+  .overflow-box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    overflow: auto; /* Enables scrollbars when needed */
+    margin-top: 20px;
+    border: 2px solid darkred;
+  }
+</style>
+<h1>Welcome to CSS Practice!</h1>
+<style>
+  /* Heading style */
+  h1 {
+    color: #333;
+    margin-top: 30px;
+  }
+</style>
+<style>
+    .center-text {
+        text-align: center;
+        font-size: 1.2em;
+        color: #444;
+        margin: 20px 0;
+    }
+</style>
+<p class="center-text">welcome to my CSS profie</p>
+<p>This is your first step into the world of CSS.</p>
+
+<style>
+.center-block {
+  width: 300px;
+  margin: 24px auto;
+  background: #b5ead7;
+  padding: 16px;
+  text-align: center;
+}
+</style>
+<div class="center-block">Be sure to Learn</div>
+<style>
+    .vertical-center {
+  height: 40px;
+  line-height: 40px;
+  background: #ffdac1;
+  text-align: center;
+}
+</style>
+<div class="vertical-center">Welcome to my world</div>
+
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+</div>
+
+</body>
+</html>
