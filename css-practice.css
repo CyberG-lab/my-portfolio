@@ -125,3 +125,50 @@ p {
   text-align: center;
   font-size: 1.2em;
 }
+
+/* Class for making an image round and animating */
+.round {
+  border-radius: 50%;
+  transition: all 0.2s; /* Smooth transition for all properties */
+}
+
+/* Styles for animated transform and shadow */
+.round.animated {
+  transform: rotate(1turn) scale(.5);
+  box-shadow: 0 0 10px rgb(223, 15, 15);
+}
+
+/* Basic transition for all images for smoother effects */
+img {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Exercise 5: Player Card Styles */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light background for the cards container */
+  margin-bottom: 20px;
+}
+
+.playerCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.playerCard h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.playerCard p {
+  color: #666;
+  font-size: 0.9em;
+}
+
