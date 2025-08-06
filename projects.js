@@ -37,8 +37,8 @@ const projects = [
       featured:
         'Integarating AI Workflows to automate tasks like college essay review, answer questions on the entire US college application process, and more.',
       detailed:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standar dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with thereleaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
+       "Integarating AI Workflows to automate tasks like college essay review, answer questions on the entire US college application process, and more.',
+     },
     languages: {
       featured: ['html', 'Ruby on rails', 'css', 'javascript'],
       detailed: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
