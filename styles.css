@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  /* === Custom Color Palette === */
+  --primary: #5f77ff;
+  --primary-foreground: #ffffff;
+  --secondary: #3c3a46;
+  --secondary-foreground: #f2e9e4;
+  --accent: #d70db9;
+  --accent-foreground: #1e1960;
+  --background: #2a2024;
+  --background-foreground: #f2e9e4;
+  --muted: #17084e;
+  --muted-foreground: #d7c6bc;
+  --destructive: #393ce6;
+  --destructive-foreground: #ffffff;
+  --border: #403a46;
+  --input: #463a41;
+  --ring: #bc5fff;
+  /* === End Custom Palette === */
+}
