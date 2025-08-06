@@ -953,6 +953,7 @@ textarea {
 
 .popup-buttons .btn:hover {
     background: var(--accent);
+<<<<<<< HEAD
 }
 
 .popup-buttons .btn svg {
@@ -975,3 +976,27 @@ textarea {
         justify-content: center;
     }
 }
+=======
+}
+
+.popup-buttons .btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .popup-container {
+        padding: 20px;
+    }
+    .popup-content h2 {
+        font-size: 24px;
+    }
+    .popup-buttons {
+        flex-direction: column;
+    }
+    .popup-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+>>>>>>> 5c033f315b1e09b35ce7e588ec3fcbb61fcc11fa

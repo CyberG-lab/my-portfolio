@@ -43,4 +43,8 @@ menuLinks.forEach((link) => {
             targetElement.scrollIntoView({ behavior: 'smooth' });
         }
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5c033f315b1e09b35ce7e588ec3fcbb61fcc11fa

@@ -13,7 +13,12 @@ const projects = [
         "Interning at Code Kenya, as a web developer. I'm learning and building projects with HTML, CSS, JavaScript, and React.",
       detailed:
         "Interning at Code Kenya, as a web developer. I'm learning and building projects with HTML, CSS, JavaScript, and React.",
+<<<<<<< HEAD
         },
+=======
+        
+    },
+>>>>>>> 5c033f315b1e09b35ce7e588ec3fcbb61fcc11fa
     languages: {
       featured: ['html', 'Ruby on rails', 'css', 'javascript'],
       detailed: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
@@ -36,7 +41,11 @@ const projects = [
       featured:
         'Integarating AI Workflows to automate tasks like college essay review, answer questions on the entire US college application process, and more.',
       detailed:
+<<<<<<< HEAD
         'Integarating AI Workflows to automate tasks like college essay review, answer questions on the entire US college application process, and more.',
+=======
+       "Integarating AI Workflows to automate tasks like college essay review, answer questions on the entire US college application process, and more.',
+>>>>>>> 5c033f315b1e09b35ce7e588ec3fcbb61fcc11fa
      },
     languages: {
       featured: ['html', 'Ruby on rails', 'css', 'javascript'],
@@ -170,4 +179,8 @@ projectButtons.forEach((btn, index) => {
         e.preventDefault();
         createPopup(index);
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 5c033f315b1e09b35ce7e588ec3fcbb61fcc11fa
